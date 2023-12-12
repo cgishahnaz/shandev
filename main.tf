@@ -1,6 +1,6 @@
 resource "aws_ssm_parameter" "shan" {
     name = "shan"
-    type = "string"
+    type = "String"
     value = "bar"
   
 }
